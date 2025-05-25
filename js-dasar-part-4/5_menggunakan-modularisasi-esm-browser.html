@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggunakan Modularisasi ESM di Browser</title>
+</head>
+<body>
+    <!-- menggunakan js sebagai esmodule pada html -->
+    <script src="./module/anotherfile.js" type="module"></script>
+    <!-- tambah nomodule untuk eksekusi user.js jika tidak mendukung esmodule -->
+    <script nomodule src="./module/user.js"></script>
+    <!-- esmodule secara inline -->
+    <script type="module">
+        import myFunction from "./module/anotherfile.js";
+        console.log(myFunction);
+    </script>
+</body>
+</html>
