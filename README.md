@@ -1,2 +1,2 @@
 # js-dicoding
-JavaScript basic Dicoding
+Belajar Dasar Pemrograman JavaScript
